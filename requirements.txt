@@ -3,4 +3,4 @@ google-genai
 pandas
 numpy
 tabulate
-fasttext-official
+https://github.com/facebookresearch/fastText/archive/refs/tags/v0.9.2.zip
