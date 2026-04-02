@@ -3,8 +3,13 @@ from google import genai
 import pandas as pd
 import numpy as np
 import os
-import fasttext
 import re
+
+try:
+    import fasttext
+except ImportError:
+    # Alternative si fasttext-lite s'installe sous un autre nom
+    import fasttext_lite as fasttext
 
 # --- 1. CONFIGURATION DE LA PAGE ---
 st.set_page_config(page_title="Assistant RGP Renault", page_icon="🚗", layout="wide")
