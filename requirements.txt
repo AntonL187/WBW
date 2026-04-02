@@ -2,5 +2,4 @@ streamlit
 google-genai
 pandas
 numpy
-tabulate
-https://github.com/facebookresearch/fastText/archive/refs/tags/v0.9.2.zip
+fasttext-wheel==0.9.2
